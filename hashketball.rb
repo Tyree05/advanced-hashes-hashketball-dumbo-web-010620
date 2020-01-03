@@ -202,7 +202,7 @@ def big_shoe_rebounds()
           if !bigfoot[:shoe] <= p_name[:shoe]
             bigfoot = p_name
           end
-          binding.pry
+          # binding.pry
             # nums << p_name[:shoe]
         }
       end
