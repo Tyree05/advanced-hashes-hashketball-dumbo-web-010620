@@ -208,5 +208,5 @@ def big_shoe_rebounds()
     }
   #  end
   }
-  return bigfoot
+  return bigfoot[:rebounds]
 end
