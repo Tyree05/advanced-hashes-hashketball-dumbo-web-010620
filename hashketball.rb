@@ -198,9 +198,10 @@ def big_shoe_rebounds()
     team.each { |attribute, data|
       if attribute == :players
         data.each { |p_name|
-          if !bigfoot[:shoe] <= p_name[:shoe]
+          binding.pry
+          if bigfoot[:shoe] < p_name[:shoe]
             bigfoot = p_name
-            binding.pry
+            # binding.pry
           end
             # nums << p_name[:shoe]
         }
