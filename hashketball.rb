@@ -196,8 +196,9 @@ def big_shoe_rebounds(x)
     # if team[:team_name] == team_name
     team.each { |attribute, data|
       if attribute == :players
-        data.each { |p_name| 
-            nums << p_name[:shoe]
+        data.each { |p_name|
+          binding.pry
+            # nums << p_name[:shoe]
         }
       end
     }
