@@ -191,12 +191,16 @@ def player_stats(players_name)
 end
 
 def big_shoe_rebounds()
-  nums =[]
+  # nums =[]
   game_hash.each{ |place, team|
     # if team[:team_name] == team_name
     team.each { |attribute, data|
       if attribute == :players
         data.each { |p_name|
+          bigfoot = p_name
+          if bigfoot[:shoe] =< p_name[:shoe]
+            bigfoot = p_name
+          end
           binding.pry
             # nums << p_name[:shoe]
         }
@@ -204,5 +208,5 @@ def big_shoe_rebounds()
     }
   #  end
   }
-  return nums
+  return bigfoot
 end
