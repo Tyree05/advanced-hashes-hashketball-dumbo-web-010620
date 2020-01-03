@@ -198,7 +198,7 @@ def big_shoe_rebounds()
     team.each { |attribute, data|
       if attribute == :players
         data.each { |p_name|
-          binding.pry
+          # binding.pry
           if n < p_name[:shoe]
             n = p_name[:shoe]
             bigfoot = p_name
