@@ -203,6 +203,7 @@ def big_shoe_rebounds()
           end
           binding.pry
             # nums << p_name[:shoe]
+          }
         }
       end
     }
