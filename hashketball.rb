@@ -192,6 +192,7 @@ end
 
 def big_shoe_rebounds()
   # nums =[]
+  bigfoot = 0
   game_hash.each{ |place, team|
     # if team[:team_name] == team_name
     team.each { |attribute, data|
