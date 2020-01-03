@@ -190,14 +190,14 @@ def player_stats(players_name)
   new_hash
 end
 
-def big_shoe_rebounds
+def big_shoe_rebounds(x)
   nums =[]
   game_hash.each{ |place, team|
     # if team[:team_name] == team_name
     team.each { |attribute, data|
       if attribute == :players
-        data.each { |p_name|
-            nums << shoe_size[:shoe]
+        data.each { |p_name| 
+            nums << p_name[:shoe]
         }
       end
     }
