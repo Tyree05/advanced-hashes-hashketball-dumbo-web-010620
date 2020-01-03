@@ -191,7 +191,7 @@ def player_stats(players_name)
 end
 
 def big_shoe_rebounds()
-  # nums =[]
+  nums = 0
   bigfoot = {}
   game_hash.each{ |place, team|
     # if team[:team_name] == team_name
